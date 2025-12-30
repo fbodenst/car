@@ -1,23 +1,259 @@
 connectors:
-  BATTERY_MODULE_1_SENS:
+  BM_M01_SENSE:
     type: TE VW Connector
+    notes: Signal Battery Module 1
     subtype: female
     pinlabels: [T1+, T2+, T1-, T2-, NC, NC, Ve-, NC, Ve-, C1+, C2+, C3+, C4+, C4+, C4+, C4+, C4+, C5+, C6+, C7+, C8+, C8+]
+
+  BM_M02_SENSE:
+    type: TE VW Connector
+    notes: Signal Battery Module 1
+    subtype: female
+    pinlabels: [T1+, T2+, T1-, T2-, NC, NC, Ve-, NC, Ve-, C1+, C2+, C3+, C4+, C4+, C4+, C4+, C4+, C5+, C6+, C7+, C8+, C8+]
+
+  BM_M03_SENSE:
+    type: TE VW Connector
+    notes: Signal Battery Module 1
+    subtype: female
+    pinlabels: [T1+, T2+, T1-, T2-, NC, NC, Ve-, NC, Ve-, C1+, C2+, C3+, C4+, C4+, C4+, C4+, C4+, C5+, C6+, C7+, C8+, C8+]
+
+  BM_M04_SENSE:
+    type: TE VW Connector
+    notes: Signal Battery Module 1
+    subtype: female
+    pinlabels: [T1+, T2+, T1-, T2-, NC, NC, Ve-, NC, Ve-, C1+, C2+, C3+, C4+, C4+, C4+, C4+, C4+, C5+, C6+, C7+, C8+, C8+]
+
+  BM_M05_SENSE:
+    type: TE VW Connector
+    notes: Signal Battery Module 1
+    subtype: female
+    pinlabels: [T1+, T2+, T1-, T2-, NC, NC, Ve-, NC, Ve-, C1+, C2+, C3+, C4+, C4+, C4+, C4+, C4+, C5+, C6+, C7+, C8+, C8+]
+
+  BM_M01_TEMP:
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from bat to junction box
+    subtype: female
+    spn: 314-1211
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  JB1_M01_TEMP: 
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from junction box to BMS
+    subtype: male
+    spn: 314-1277
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  BM_M02_TEMP:
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from bat to junction box
+    subtype: female
+    spn: 314-1211
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  JB1_M02_TEMP: 
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from junction box to BMS
+    subtype: male
+    spn: 314-1277
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  BM_M03_TEMP:
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from bat to junction box
+    subtype: female
+    spn: 314-1211
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  JB1_M03_TEMP: 
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from junction box to BMS
+    subtype: male
+    spn: 314-1277
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  BM_M04_TEMP:
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from bat to junction box
+    subtype: female
+    spn: 314-1211
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  JB1_M04_TEMP: 
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from junction box to BMS
+    subtype: male
+    spn: 314-1277
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  BM_M05_TEMP:
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from bat to junction box
+    subtype: female
+    spn: 314-1211
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  JB1_M05_TEMP: 
+    type: AMP Superseal 1.5
+    notes: Temp intermediate plug Battery Module 1 from junction box to BMS
+    subtype: male
+    spn: 314-1277
+    supplier: RS Online
+    pinlabels: [T1+, T2+, T1-, T2-]
+
+  BMS_SENSOR: 
+    notes: Current Sensor / Thermistor / Remote Connector BMS
+    subtype: female
+    spn: 690-9868
+    supplier: RS Online
+    pinlabels: [REMOTE_1+, REMOTE_1-, REMOTE_2+, REMOTE_2-, TEMP_8, TEMP_7, TEMP_6, TEMP_5, TEMP_4, 
+      TEMP_3, TEMP_2, TEMP_1, CURRENT_HIGH_CH, CURRENT_LOW_CH, NC, NC, REMOTE_1_SHIELD, REMOTE_2_SHIELD, 
+      TEMP_GND, TEMP_GND, TEMP_GND, TEMP_GND, TEMP_GND, TEMP_GND, TEMP_GND, TEMP_GND, CURRENT_GND, CURRENT_SENS_PW]
+
   BMS_MAIN:
     type: Molex KK 254
     subtype: female
-    pinlabels: [GND, RX, TX]
+    pinlabels: [ALWS_ON, READY_PW, CHARGE_PW, SOC, CHARGE_I_LIMIT, CHARGER_SAFETY, 
+      DISCHARGE_ENABLE, CHARGE_ENABLE, INPUT_3, FAN_ENABLE_OUT_3, NC, GND,
+      INPUT_1_J1772_CTR_PILOT, INPUT_2_J1772_PROX_DETECT, OUTPUT_2, DISCHARGE_CURRENT_LIMIT, CAN1_SHIELD,
+      CAN1_H, CAN1_L, CAN2_L, CAN2_H, CAN2_SHIELD, OUTPUT_1, OUTPUT_4_FAN_PWM, NC, MULTI_PURPOSE_ENABLE]
+
+  BMS_VOLTAGE_1:
+    notes: Cell voltages, grp 1-3
+    subtype: female
+    spn: 712-1384
+    supplier: RS Online
+    pinlabels: [M01_V1, M01_V1_REF, M01_V2, M01_V3, M01_V4, M01_V5, M01_V6, M01_V7, M01_V8, M01_V9, M01_V10, M01_V11, M01_V12,
+      M02_V1, M02_V1_REF, M02_V2, M02_V3, M02_V4, M02_V5, M02_V6, M02_V7, M02_V8, M02_V9, M02_V10, M02_V11, M02_V12,
+      NC,
+      M03_V1, M03_V1_REF, M03_V2, M03_V3, M03_V4, M03_V5, M03_V6, M03_V7, M03_V8, M03_V9, M03_V10, M03_V11, M03_V12]
+
+  BMS_VOLTAGE_2:
+    notes: Cell voltages, grp 1-3
+    subtype: female
+    spn: 712-1384
+    supplier: RS Online
+    pinlabels: [M04_V1, M04_V1_REF, M04_V2, M04_V3, M04_V4, M04_V5, M04_V6, M04_V7, M04_V8, M04_V9, M04_V10, M04_V11, M04_V12,
+      M05_V1, M05_V1_REF, M05_V2, M05_V3, M05_V4, M05_V5, M05_V6, M05_V7, M05_V8, M05_V9, M05_V10, M05_V11, M05_V12,
+      NC,
+      NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC]
+
+
 
 cables:
-  W1:
-    gauge: 0.25 mm2
-    length: 0.2
-    color: OG
+
+  W_TEMP_BMS: 
     wirecount: 22
-    shield: false
+    supplier: RS Online
+    spn: 690-9868
+
+  W_BMS_VOLTAGE_1:
+    wirecount: 39
+    supplier: EV Shop
+    length: 1.83
+
+  W_BMS_VOLTAGE_2:
+    wirecount: 26
+    supplier: EV Shop
+    length: 1.83
+
+  W_BM_M01_TEMP:
+    wirecount: 4
+
+  W_JB_M01_TEMP:
+    wirecount: 4
+
+  W_BM_M02_TEMP:
+    wirecount: 4
+
+  W_JB_M02_TEMP:
+    wirecount: 4
+
+  W_BM_M03_TEMP:
+    wirecount: 4
+
+  W_JB_M03_TEMP:
+    wirecount: 4
+
+  W_BM_M04_TEMP:
+    wirecount: 2
+
+  W_JB_M04_TEMP:
+    wirecount: 2
+
+  W_BM_M05_TEMP:
+    wirecount: 2
+
+  W_JB_M05_TEMP:
+    wirecount: 2
+
 
 connections:
+  - 
+    - BM_M01_SENSE: [7, 10, 11, 12, 13, 18, 19, 20, 21]
+    - W_BMS_VOLTAGE_1: [2,1,3,4,5,6,7,8,9]
+    - BMS_VOLTAGE_1: [2, 1, 3, 4, 5, 6, 7, 8, 9]
+  - 
+    - BM_M02_SENSE: [7, 10, 11, 12, 13, 18, 19, 20, 21]
+    - W_BMS_VOLTAGE_1: [15,14,16,17,18,19,20,21,22]
+    - BMS_VOLTAGE_1: [15,14,16,17,18,19,20,21,22]
+  - 
+    - BM_M03_SENSE: [7, 10, 11, 12, 13, 18, 19, 20, 21]
+    - W_BMS_VOLTAGE_1: [29,28,30,31,32,33,34,35,36]
+    - BMS_VOLTAGE_1: [29,28,30,31,32,33,34,35,36]
+  - 
+    - BM_M04_SENSE: [7, 10, 11, 12, 13, 18, 19, 20, 21]
+    - W_BMS_VOLTAGE_2: [2,1,3,4,5,6,7,8,9]
+    - BMS_VOLTAGE_2: [2, 1, 3, 4, 5, 6, 7, 8, 9]
+  - 
+    - BM_M05_SENSE: [7, 10, 11, 12, 13, 18, 19, 20, 21]
+    - W_BMS_VOLTAGE_2: [15,14,16,17,18,19,20,21,22]
+    - BMS_VOLTAGE_2: [15,14,16,17,18,19,20,21,22]
+  - 
+    - BM_M01_SENSE: [1,2,3,4]
+    - W_BM_M01_TEMP: [1,2,3,4]
+    - BM_M01_TEMP: [1,2,3,4]
   -
-    - X1: [5,2,3]
-    - W1: [1,2,3]
-    - X2: [1,3,2]
+    - JB1_M01_TEMP: [1,2,3,4]
+    - W_JB_M01_TEMP: [1,2,3,4]
+    - BMS_SENSOR: [12,11,19,20]
+  - 
+    - BM_M02_SENSE: [1,2,3,4]
+    - W_BM_M02_TEMP: [1,2,3,4]
+    - BM_M02_TEMP: [1,2,3,4]
+  -
+    - JB1_M02_TEMP: [1,2,3,4]
+    - W_JB_M02_TEMP: [1,2,3,4]
+    - BMS_SENSOR: [10,9,21,22]
+  -
+    - BM_M03_SENSE: [1,2,3,4]
+    - W_BM_M03_TEMP: [1,2,3,4]
+    - BM_M03_TEMP: [1,2,3,4]
+  -
+    - JB1_M03_TEMP: [1,2,3,4]
+    - W_JB_M03_TEMP: [1,2,3,4]
+    - BMS_SENSOR: [8,7,23,24]
+  -
+    - BM_M04_SENSE: [1,3]
+    - W_BM_M04_TEMP: [1,2]
+    - BM_M04_TEMP: [1,2]
+  -
+    - JB1_M04_TEMP: [1,2]
+    - W_JB_M04_TEMP: [1,2]
+    - BMS_SENSOR: [6,25]
+  -
+    - BM_M05_SENSE: [1,3]
+    - W_BM_M05_TEMP: [1,2]
+    - BM_M05_TEMP: [1,2]
+  -
+    - JB1_M05_TEMP: [1,2]
+    - W_JB_M05_TEMP: [1,2]
+    - BMS_SENSOR: [5,26]

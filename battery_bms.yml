@@ -1,0 +1,23 @@
+connectors:
+  BATTERY_MODULE_1_SENS:
+    type: TE VW Connector
+    subtype: female
+    pinlabels: [T1+, T2+, T1-, T2-, NC, NC, Ve-, NC, Ve-, C1+, C2+, C3+, C4+, C4+, C4+, C4+, C4+, C5+, C6+, C7+, C8+, C8+]
+  BMS_MAIN:
+    type: Molex KK 254
+    subtype: female
+    pinlabels: [GND, RX, TX]
+
+cables:
+  W1:
+    gauge: 0.25 mm2
+    length: 0.2
+    color: OG
+    wirecount: 22
+    shield: false
+
+connections:
+  -
+    - X1: [5,2,3]
+    - W1: [1,2,3]
+    - X2: [1,3,2]

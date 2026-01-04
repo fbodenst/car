@@ -10,4 +10,28 @@ The junction box gives you one clean “transition node”
 # Overall electrical safety
 * we need to decide where to put the fuse - potentially in between bms voltage connector 1 and 2 (so grp 3 and 4)
 * we might want to add 2 service disconnects to make the battery really safe by keeping battery voltage below 60V while working on it
+
 * we need to add bat output relay
+
+
+# Battery Pack 
+## Dimensions
+Height: 
+* min 223mm
+* max 276mm
+
+Length:
+* min 1224mm
+* max 1452mm
+
+Width: 
+* min 260mm
+* max 270mm
+
+## Design
+* Try to stay close to min dimensions
+* Bat+ top, Bat- bottom, both feed into rail
+* Service disconnect after 2 packs
+* Clean intermodule electrical connection [Link](https://www.youtube.com/watch?v=fPJml5GVxwU).
+* reduce from 5 to 4 modules in V1
+* FR4 isolation between 2 and another layer on top for output relay and contacts level

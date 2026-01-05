@@ -35,3 +35,6 @@ Width:
 * Clean intermodule electrical connection [Link](https://www.youtube.com/watch?v=fPJml5GVxwU).
 * reduce from 5 to 4 modules in V1
 * FR4 isolation between 2 and another layer on top for output relay and contacts level
+* We stick with Formula SAE mech desin guidelines. 3.2mm alu strength bottom, remaining 2.3mm
+* Elements to be integrated: BMS, Current Sensor, AIR, IMD, Precharge Resistor, TSAL (Tractive System Active Light)
+

@@ -5,3 +5,20 @@
 
 # MSD - Manual service disconnect
 * We will go with an integrated solution where the plug has a 400A integrated fuse
+
+# Battery Box Design
+
+## General
+* Bottom plate 10mm AL, side plates 
+* Side plates 4mm
+* We might add a fan to the LV compartment
+* We will aim for 2mm clearance on every side of a battery module and fill those gaps with foam (thermal conductive for top and bottom)
+* Put padding in between mounting points of battery module and base plate - 2mm gap in CAD
+
+## Cooling
+* We will do air cooling in V1 - mostly because there will be no DC fast charging and no track load profile
+
+## TODOs
+* Need to think about how to stabilize middle layer
+* Endplate design
+* Cutout in middle section -> maybe it makes sense to do busbar design early 

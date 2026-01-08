@@ -1,0 +1,17 @@
+Family,Function,Notes,P/N,Qty,S/N,Supplier,Price per piece (netto),Total
+Sec_Bat,Fuse,Not needed - integrated in MSD,,,,,,
+Sec_Bat,MSD Socket,"MINI MSD Receptacle, Front Mount",MINIMSDF000F,1,523-MINIMSDF000F,Mouser,"46,71","46,71"
+Sec_Bat,MSD Plug (with integrated 400A Fuse),MINI MSD Plug with 400A Fuse,MINIMSDM400,1,523-MINIMSDM400,Mouser,"88,38","88,38"
+Sec_Bat,Battery Module,8S 6.85 KWh 30V VW ID (MEB) Battery Module (Used),VWID36.85,3,VWID36.85,EVShop.eu,750,2250
+Sec_Bat,AIR,"Aux contacts, 500A rating, 12VDC switching voltage",EV200HAANA,2,655-EV200HAANA,Mouser,"141,22","282,44"
+Sec_Bat,HV Sec <-> Prim Battery - Socket,Sits in Battery Box,HVSL1400022A1D8S6,2,276-9087,RS Online,"147,17","294,34"
+Sec_Bat,LV Sec <-> Prim Battery - Socket,Panel mount,DTM04-12PA-L012,1,571-DTM04-12PA-L012,Mouser,"10,29","10,29"
+Sec_Bat,BMS Remote Unit,BMS Orion 2 Remote 48C,,1,,EVShop.eu,815,815
+Sec_Bat,BMS <-> Cell/Temp Cable,Cables supplied by Orion to be connected with the VW Cables,,1,,EVShop.eu,150,150
+Sec_Bat,Battery <-> Cell / Temp Cable,Short cable that connects to the VW Battery modules,,3,VW-8s-cell-tap-cable,evCreate.com,20,60
+Harness,LV Sec <-> Prim Battery - Plug,"Coil_Supply 2x, AIR Low Side 2x, BMS CAN 2x, BMS Supply 2x",DTM06-12SA,1,571-DTM06-12SA,Mouser,"1,7","1,7"
+Harness,HV Sec <-> Prim Battery - Crimps,,,4
+Harness,HV Sec <-> Prim Battery - Plug,Sits on HV cable,HVSL1400082A195,1,276-9095,RS Online,"307,14","307,14"
+,LV Sec <-> Prim Battery - Crimps,,,8
+,HV Cable,"95mm2, orange"
+,LV Cable,TBD

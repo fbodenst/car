@@ -1,5 +1,5 @@
 # HV Battery Connector 
-* Current rating > 400A - we could go lower but maybe sth for a V2
+* Current rating 350A
 * HV Cable - we will go with 95mm2 - at 400A this is a good compromise vs. 120mm2. Other option would be 70mm2 (options given by the plug manufacturers)
 * We go woth Amphenol connectors and A coding - A coded connectors will only mate with A coded plugs
 
@@ -17,6 +17,9 @@
 
 ## Cooling
 * We will do air cooling in V1 - mostly because there will be no DC fast charging and no track load profile
+
+## Electrical 
+* We go with a 30mm x 5mm busbar internally - should be fine with the 250A cont. current from the motor and is standard for suppliers
 
 ## TODOs
 * Need to think about how to stabilize middle layer

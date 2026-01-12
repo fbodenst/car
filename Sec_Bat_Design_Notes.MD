@@ -23,6 +23,6 @@
 
 ## TODOs
 * Need to think about how to stabilize middle layer
-* Endplate design
-* Cutout in middle section -> maybe it makes sense to do busbar design early 
-* Change position of MSD to beginning of string for better integration
+* Endplate desig
+* Integration testing
+  * Order connectors and wooden plates to check if secondary battery can be inserted into car (needs to be done post removal of components)

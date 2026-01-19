@@ -1,0 +1,21 @@
+Family,Function,Notes,P/N,Qty,S/N,Supplier,Price per piece (netto),Total
+Board,Fuse Holder,"Fuse Holder, 2 Fuses, 10x38 fuse",L60030C2C,1,,Digikey
+Board,Pre Charge Relay,"Precharge relay with suf DC rating, maybe overkill",Omron G9EA-1-B ,1,,Mouser
+Board,Discharge Bleeder,Needs to be mounted to alu baseplate,HSC75S2K2J,1
+Board,"Fuse Holder, 50A",Holder for HV Charger Fuse,LSCR001,1
+Board,50A Fuse,Fuse for HV Charger,L50QS050,1
+Board,"5A Fuse, 10x38",5A fuse for pre charge,PV-5A10F,1
+Board,"25A Fuse, 10x38",25A fuse for LV charger,ABB E 9F25 PV,1
+Harness,Precharge R -> Connector to VCU,22 AWG Blue (Signal)
+Harness,Precharge R -> Connector to VCU,22 AWG Black (LV GND)
+Harness,Busbar Vbat+ -> Precharge Relay,"12 AWG Orange, Precharge Relay"
+Harness,Precharge Relay -> Fuse Holder,"12 AWG Orange, Precharge Relay"
+Harness,Fuse Holder -> HVA280,"12 AWG Orange, Precharge Relay"
+Harness,Busbar Vbat+ -> 50A Fuse,"12 AWG Orange, HV Charger"
+Harness,50A Fuse -> HVA280,"12 AWG Orange, HV Charger"
+Harness,Busbar Vbat+ -> Discharge Bleeder,"18 AWG Orange, Discharge bleeder"
+Harness,M5 Ring Lug ,"12 AWG, M5, for connection to precharge relay",,2
+Harness,Discharge Bleeder -> Busbar Vbat-,"18 AWG Orange, Discharge bleeder"
+Harness,M4 Ring Lug,"18 AWG, M4, for connection to discharge resistor",,2
+Harness,Busbar Vbat+ -> Fuse Holder,"12 AWG Orange, LV Charger"
+Harness,Fuse Holder -> HVA280,"12 AWG Orange, LV Charger"

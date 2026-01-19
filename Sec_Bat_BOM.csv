@@ -1,5 +1,5 @@
 Family,Function,Notes,P/N,Qty,S/N,Supplier,Price per piece (netto),Total
-Sec_Bat,Fuse,Not needed - integrated in MSD,,,,,,
+Sec_Bat,Fuse,Special purpose fuse 400A 500VDC 30kA M8 Bolt Down,38EV400.ZXBDM,1,576-38EV400.ZXBDM,Mouser,"40,25","40,25"
 Sec_Bat,MSD Socket,"MINI MSD Receptacle, Front Mount",MINIMSDF000F,1,523-MINIMSDF000F,Mouser,"46,71","46,71"
 Sec_Bat,MSD Plug (with integrated 400A Fuse),MINI MSD Plug with 400A Fuse,MINIMSDM400,1,523-MINIMSDM400,Mouser,"88,38","88,38"
 Sec_Bat,Battery Module,8S 6.85 KWh 30V VW ID (MEB) Battery Module (Used),VWID36.85,3,VWID36.85,EVShop.eu,750,2250
